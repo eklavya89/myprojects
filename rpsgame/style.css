@@ -238,7 +238,7 @@ footer{
         background-size: auto 180px, contain;
         background-position: center 25px;
     }    
-    .rock, .paper, .scissor, .reset, .rules{
+    .rock, .paper, .scissor, .reset, .rules-btn{
         cursor: default;
     }
     .img-rules{
