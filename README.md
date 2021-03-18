@@ -16,6 +16,7 @@
 - [Component - Active Preview](https://sharmaeklavya.github.io/projects/preview/)
 
 
+- [Game - Rock Paper Scissor](https://sharmaeklavya.github.io/projects/rps/)
 - [Game - Color Flipper](https://sharmaeklavya.github.io/projects/colorflipper/)
 - [Game - Color Game](https://sharmaeklavya.github.io/projects/colorgame/)
 - [Game - Quiz App](https://sharmaeklavya.github.io/projects/quizapp/)
