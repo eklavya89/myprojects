@@ -4,8 +4,6 @@ let houseScoreCount = 0;
 let singleClick = false;
 
 //element selectors
-
-
 const rps = document.querySelectorAll('.rps')
 const rock = document.querySelector('.rock')
 const paper = document.querySelector('.paper')
@@ -173,5 +171,3 @@ function resetGame(){
         singleClick = false        
     })
 }
-
-
