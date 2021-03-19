@@ -154,7 +154,7 @@ form{
   display: flex;
 }
 
-@media(max-width: 600px){
+@media(max-width: 500px){
   form{    
     flex-direction: column;
     align-items: center;
@@ -162,7 +162,7 @@ form{
   .list{
     width: 20rem;
   }
-  .iconbtns{
-    flex-direction: column;
+  .iconbtns{    
+    flex-wrap: wrap;
   }
 }
