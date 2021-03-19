@@ -1,8 +1,8 @@
 //selectors
 const form = document.querySelector('form')
-const input = document.querySelector('#inputarea')
+const input = document.querySelector('#input-area')
 const header = document.querySelector('.header h1')
-const selectType = document.querySelector('#selecttype')
+const selectType = document.querySelector('#select-type')
 const listContainer = document.querySelector('.list')
 
 // variables
