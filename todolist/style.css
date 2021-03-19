@@ -34,14 +34,13 @@ form{
   width: 25rem;
   margin: 0.5rem;
   padding: 0.5rem;
-  display: flex;    
+  display: flex;   
 }
 
 .input-type{  
-  width: 70%;
+  width: 72%;
   margin: .5rem; 
-  margin-right: 0;
-  padding: 0 .5rem; 
+  margin-right: 0;  
   background-color: white;  
   display: flex;  
 }
@@ -51,7 +50,15 @@ form{
   height: 2.5rem;    
   padding: 0.5rem;  
   border: none;  
-  outline: none;  
+  outline: none;    
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active
+{
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
 
 .submit{     
@@ -61,22 +68,42 @@ form{
   font-weight: 900;
   background: none;
   border: none;
-  outline: none;
+  outline: none;    
 }
 
+.select-type{
+  width: 25%;
+  margin: .5rem; 
+  margin-right: 0;  
+  background-color: white;  
+  align-self: center;
+  display: flex;
+}
 
-#select-type{ 
-  width: 30%;
-  height: 2.5rem; 
-  margin: 0.5rem;
-  margin-left: 0;
+#select-area{    
   padding: 0 .5rem; 
+  height: 2.5rem; 
   font-size: 0.85rem;  
   font-weight: 400;
   border: none; 
-  outline: none;
+  outline: none;  
+  background-color: white;  
   border-radius: 4px 0  0 4px;
+  appearance: none;
   -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+
+.select-type:after{
+  content: '';
+  position: relative;
+  top: 1rem;
+  left: 0;
+  border-top: 8px solid #000;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  pointer-events: none;
 }
 
 .list{
@@ -85,33 +112,28 @@ form{
   padding: 0.5rem;
 }
 
-.item{
-  width: 100%;
-  margin: 0.5rem;  
+.item{  
+  margin: 0.5rem;    
   font-size: 1rem;  
   display: flex;
   justify-content: space-between;
   border: 1px solid lightgray;
   background-color: mintcream;
   border-radius: 4px;
-  transition: all 0.5s ease;
-  word-wrap: break-word;
+  transition: all 0.5s ease;  
 }
 
-.item p{
-  width: 70%;
+.item p{  
   margin: 0.25rem;
   padding: 0.25rem;  
-  align-self: center;
+  align-self: center;  
+  word-break: break-all;
 }
 
-.iconbtns{
-  width: 30%;  
-  margin: auto 0.5rem;
+.iconbtns{  
+  margin: 0.25rem;
   text-align: center;
   cursor: pointer;  
-  display: flex;
-  justify-content: space-around;
 }
 
 .checkicon,
@@ -159,10 +181,9 @@ form{
     flex-direction: column;
     align-items: center;
   }
-  .list{
-    width: 20rem;
-  }
   .iconbtns{    
+    display: flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
   }
 }

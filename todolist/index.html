@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css">
   <title>To-Do-List</title>
 </head>
@@ -18,11 +18,13 @@
         <input type="text" id="input-area" name="input-area">
         <button type="submit" class="submit"><i class="fas fa-plus-square right"></i></button>
       </div>      
-      <select name="select-type" id="select-type">
-        <option value="all" class="select">All</option>
-        <option value="incomplete" class="select">Incomplete</option>
-        <option value="completed" class="select">Completed</option>
-      </select>
+      <div class="select-type">   
+        <select name="select-area" id="select-area">          
+          <option value="all" class="select">All</option>
+          <option value="incomplete" class="select">Incomplete</option>
+          <option value="completed" class="select">Completed</option>          
+        </select>
+      </div>      
     </form>
     <div class="list">
       

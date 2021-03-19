@@ -2,7 +2,8 @@
 const form = document.querySelector('form')
 const input = document.querySelector('#input-area')
 const header = document.querySelector('.header h1')
-const selectType = document.querySelector('#select-type')
+const selectType = document.querySelector('#select-area')
+const selectArrow = document.querySelector('.button')
 const listContainer = document.querySelector('.list')
 
 // variables
@@ -12,6 +13,7 @@ let editFlag = false;
 // event listeners
 form.addEventListener('submit', createItem)
 selectType.addEventListener('change', filterItems)
+selectArrow.addEventListener('change', filterItems)
 listContainer.addEventListener('click', checkEditDel)
 
 // function for creating an item
