@@ -13,8 +13,7 @@ form.addEventListener("submit", (e) => {
   const peopleValue = people.value;
   const tipAmount = (billValue * serviceValue) / 100;
   const divideAmount = (tipAmount / peopleValue).toFixed(2);
-
-  console.log(serviceValue);
+  
 
   if (!billValue || serviceValue === "service") {
     timeOut();
