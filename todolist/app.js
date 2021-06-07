@@ -109,11 +109,3 @@ function saveToLocalStorage(){
     localStorage.setItem('orange', JSON.stringify('item1'))
 }
 saveToLocalStorage()
-
-let userInput = ['3 4']
-let num = userInput[0].split(' ')
-
-let firstNum = num[0]
-let secondNum = num[1]
-
-let result = firstNum ** secondNum
