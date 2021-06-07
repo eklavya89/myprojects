@@ -13,9 +13,7 @@ let editFlag = false;
 // event listeners
 form.addEventListener('submit', createItem)
 selectType.addEventListener('change', filterItems)
-selectArrow.addEventListener('change', () => {
-    filterItems()
-)
+selectArrow.addEventListener('change', filterItems)
 listContainer.addEventListener('click', checkEditDel)
 
 // function for creating an item
